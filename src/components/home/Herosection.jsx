@@ -84,8 +84,8 @@ const Herosection = () => {
         ease: "power2.out",
         scrollTrigger: {
           trigger: rightImageRef.current,
-          start: "96% bottom",
-          end: "100% bottom",
+          start: "110% bottom",
+          end: "120% bottom",
           scrub: true,
         },
       }
@@ -162,9 +162,19 @@ const Herosection = () => {
           alt="right-card"
           className="absolute right-0 translate-y-[40vh] h-[600px] max-w-md rounded-2xl opacity-0"
         />
-        
-      
-
+        {/* RIGHT 2 */}
+        <img
+          ref={rightImage2Ref}
+          src={card1}
+          alt="right-card-2"
+          className="absolute right-20 translate-y-[60vh] h-[600px] max-w-md rounded-2xl opacity-0"
+        />
+ <img
+          ref={rightImage2Ref}
+          src={card1}
+          alt="right-card-2"
+          className="absolute right-20 translate-y-[60vh] h-[600px] max-w-md rounded-2xl opacity-0"
+        />
       </div>
     </div>
   );
