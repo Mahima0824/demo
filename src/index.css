@@ -6,3 +6,39 @@ body{
     font-family: "Albert Sans", sans-serif;
     background-color: black;
 }
+
+/* Scroll Indicator Animations */
+@keyframes scroll-dot {
+    0%, 100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    50% {
+        transform: translateY(20px);
+        opacity: 0.5;
+    }
+}
+
+@keyframes scroll-arrow {
+    0%, 100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    50% {
+        transform: translateY(5px);
+        opacity: 0.4;
+    }
+}
+
+.animate-scroll-dot {
+    animation: scroll-dot 2s ease-in-out infinite;
+}
+
+.animate-scroll-arrow {
+    animation: scroll-arrow 1.5s ease-in-out infinite;
+}
+
+.animate-scroll-arrow-delayed {
+    animation: scroll-arrow 1.5s ease-in-out infinite;
+    animation-delay: 0.3s;
+}

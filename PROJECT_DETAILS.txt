@@ -1,0 +1,93 @@
+
+================================================================================
+                        TOOLS & TECHNOLOGIES
+================================================================================
+
+- React 19.2.0
+- GSAP 3.13.0 + ScrollTrigger
+- Tailwind CSS 4.1.17
+- Vite 7.2.2
+- React Router DOM 7.9.6
+
+================================================================================
+                        WHAT I BUILT
+================================================================================
+
+1. HERO SECTION
+   - Sticky video with scroll-triggered scale animations
+   - Dynamic text reveal on scroll
+   - 9-image gallery with staggered positioning
+   - GSAP ScrollTrigger integration
+
+2. ABOUT SECTION
+   - Revolutionary word-by-word scroll animation
+   - Custom hook for progressive text reveal
+   - Smooth opacity transitions
+
+3. MISSION/VISION CARDS
+   - Interactive hover-triggered GSAP animations
+   - Dynamic card expansion/shrink effects
+   - Elegant overlay transitions
+
+4. FEATURE SECTION
+   - Values grid with hover interactions
+   - Layered image cards for team showcase
+   - Scroll-triggered animations
+
+5. CONTACT FORM
+   - Fully styled responsive form
+   - Animated submit button
+   - Professional UI components
+
+6. NAVBAR & FOOTER
+   - Fixed navbar with backdrop blur
+   - Multi-language dropdown
+   - SVG video mask footer effect
+
+================================================================================
+                        CUSTOM COMPONENTS
+================================================================================
+
+- Section.jsx (Reusable wrapper)
+- FormInput.jsx (Styled input)
+- FormSelect.jsx (Styled select)
+- MissionCard.jsx (Reusable card)
+- useScrollTextFade.js (Custom animation hook)
+
+================================================================================
+                        KEY FEATURES
+================================================================================
+
+✓ Advanced GSAP scroll animations
+✓ Word-by-word text reveal effects
+✓ Interactive hover animations
+✓ Fully responsive design
+✓ Reusable component architecture
+✓ Custom hooks implementation
+✓ Smooth transitions & effects
+✓ Premium UI/UX design
+
+================================================================================
+                        CHALLENGES OVERCOME
+================================================================================
+
+1. Scroll Animation Synchronization
+   - Coordinated multiple scroll triggers
+   - Optimized performance
+
+2. Word-by-Word Animation
+   - Built custom hook from scratch
+   - Calculated precise scroll progress
+
+3. Image Grid Layout
+   - Implemented staggered positioning
+   - Responsive breakpoints
+
+4. Component Architecture
+   - Extracted reusable components
+   - Reduced code duplication
+
+5. GSAP Integration
+   - Mastered ScrollTrigger setup
+   - Optimized animation timelines
+
