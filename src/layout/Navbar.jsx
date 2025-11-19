@@ -14,9 +14,9 @@ const Navbar = () => {
         <header className="fixed top-0 left-0 right-0 z-50">
             <nav className=" px-7 py-3 backdrop-blur-2xl md:py-5 bg-transparent">
                 <div className="flex  items-center justify-between">
-                    <div className="md:flex hidden items-center gap-8 text-xs tracking-widest">
-                        <a href="#contact" className="text-[#f8f9fb] text-xs hover:text-white transition-colors">CONTACT</a>
-                        <a href="#linkedin" className="text-[#f8f9fb] text-xs hover:text-white transition-colors">LINKEDIN</a>
+                    <div className="md:flex hidden items-center gap-12 text-xs tracking-widest">
+                        <a href="#contact" className="text-nav-link text-xs hover:text-white transition-colors">CONTACT</a>
+                        <a href="#linkedin" className="text-nav-link text-xs hover:text-white transition-colors">LINKEDIN</a>
                     </div>
 
                     <div className="flex-1 flex justify-center">
@@ -51,7 +51,7 @@ const Navbar = () => {
                                 className="absolute left-0 top-full mt-2 w-full origin-top-right rounded-md bg-neutral-900/90 backdrop-blur ring-1 ring-white/10 shadow-lg focus:outline-none z-50"
                             >
                                 <ul className="py-1 text-sm text-gray-200">
-                                    {['EN', 'ES', 'FR', 'DE'].map((l) => (
+                                    {[ 'AR', 'IT'].slice(0, 2).map((l) => (
                                         <li key={l}>
                                             <button
                                                 onClick={() => selectLang(l)}

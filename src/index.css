@@ -2,6 +2,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 @import "tailwindcss";
 
+@theme {
+}
+
+.bg-form-dark {
+    background-color: #05070a;
+}
+
+.bg-form-focus {
+    background-color: #090d13;
+}
+
+.bg-section-primary {
+    background-color: #091523;
+}
+
+.bg-section-dark {
+    background-color: #111820;
+}
+
+.bg-card-dark {
+    background-color: #252e38;
+}
+
+.bg-card-hover {
+    background-color: #3d4552;
+}
+
+.bg-gray-secondary {
+    background-color: #6b7582;
+}
+
+.border-gray-secondary {
+    border-color: #6b7582;
+}
+
+.text-gray-secondary {
+    color: #6b7582;
+}
+
+.text-nav-link {
+    color: #f8f9fb;
+}
+
 body{
     font-family: "Albert Sans", sans-serif;
     background-color: black;
@@ -30,6 +73,9 @@ body{
     }
 }
 
+button{
+    cursor: pointer;
+}
 .animate-scroll-dot {
     animation: scroll-dot 2s ease-in-out infinite;
 }

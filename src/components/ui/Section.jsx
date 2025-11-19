@@ -1,8 +1,5 @@
 import React from 'react'
 
-/**
- * Reusable Section wrapper component with common padding
- */
 const Section = ({ 
   children, 
   className = '', 

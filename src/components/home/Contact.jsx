@@ -7,7 +7,6 @@ const Contact = () => {
     return (
         <Section>
             <div>
-                {/* Left column: heading + location */}
                 <div>
                     <h2 className='text-2xl md:text-3xl font-semibold tracking-tight mb-16'>
                         Contact us to find out more
@@ -26,14 +25,12 @@ const Contact = () => {
                         </div>
                     </div>
 
-                    {/* Right column: form */}
                     <div className='md:flex-none md:basis-[68%]'>
                         <p className='text-[11px] md:text-xs font-semibold tracking-[0.16em] uppercase text-white/60 mb-4'>
                             Send us a message
                         </p>
 
                         <form className='space-y-4'>
-                            {/* First row */}
                             <div className='grid grid-cols-1 md:grid-cols-2 gap-3'>
                                 <FormInput
                                     type='text'
@@ -45,14 +42,13 @@ const Contact = () => {
                                 />
                             </div>
 
-                            {/* Second row */}
                             <div className='grid grid-cols-1 md:grid-cols-2 gap-3'>
                                 <FormSelect defaultValue=''>
-                                    <option value='' disabled className='bg-[#05070a]'>
+                                    <option value='' disabled className='bg-form-dark'>
                                         Company
                                     </option>
-                                    <option className='bg-[#05070a]'>Individual</option>
-                                    <option className='bg-[#05070a]'>Organization</option>
+                                    <option className='bg-form-dark'>Individual</option>
+                                    <option className='bg-form-dark'>Organization</option>
                                 </FormSelect>
                                 <FormInput
                                     type='text'
@@ -60,7 +56,6 @@ const Contact = () => {
                                 />
                             </div>
 
-                            {/* Message */}
                             <div>
                                 <FormInput
                                     type='textarea'
@@ -69,15 +64,14 @@ const Contact = () => {
                                 />
                             </div>
 
-                            {/* Consent + button row */}
                             <div className='flex flex-col md:flex-row md:items-center md:justify-between gap-4 pt-2'>
                                 <label className='flex items-start gap-2 text-[10px] md:text-[11px] text-white/60 max-w-md cursor-pointer'>
-                                    <span className='mt-[2px] inline-flex h-3.5 w-3.5 items-center justify-center border border-[#6b7582] rounded-[3px]'>
+                                    <span className='mt-[2px] inline-flex h-3.5 w-3.5 items-center justify-center border border-gray-secondary rounded-[3px]'>
                                         <input
                                             type='checkbox'
                                             className='peer sr-only'
                                         />
-                                        <span className='pointer-events-none block h-2.5 w-2.5 rounded-[2px] bg-transparent transition-colors duration-150 peer-checked:bg-[#6b7582]' />
+                                        <span className='pointer-events-none block h-2.5 w-2.5 rounded-[2px] bg-transparent transition-colors duration-150 peer-checked:bg-gray-secondary' />
                                     </span>
                                     <span>
                                         I hereby agree to and accept the Privacy Policy and give permission to access my personal data.
@@ -86,11 +80,10 @@ const Contact = () => {
 
                                 <button
                                     type='submit'
-                                    className='group ml-auto inline-flex items-center justify-center gap-2 px-8 py-3 text-xs tracking-[0.18em] uppercase bg-[#111820] border border-white/20 rounded-sm '
+                                    className='group ml-auto inline-flex items-center justify-center gap-2 px-8 py-3 text-xs tracking-[0.18em] uppercase bg-section-dark border border-white/20 rounded-sm '
                                 >
                                     <span>Send</span>
                                     <span className='relative flex h-4 w-4 overflow-hidden'>
-                                        {/* Default arrow (visible, slides right on hover) */}
                                         <svg
                                             width='15'
                                             height='16'
@@ -106,7 +99,6 @@ const Contact = () => {
                                             />
                                         </svg>
 
-                                        {/* Hover arrow (starts left, slides in on hover) */}
                                         <svg
                                             width='15'
                                             height='16'
